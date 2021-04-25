@@ -204,7 +204,6 @@ namespace ariel
         char b1 = '\0';
         char b2 = '\0';
 
-        ios::pos_type startPosition = is.tellg();
         is >> newNum >> b1 >> newUnit;
         if (newUnit.at(newUnit.length()-1) == ']')
         {
